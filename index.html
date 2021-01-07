@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>Обо мне</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/style.css">
+<meta name="viewport" content="width=device-width">
+</head>
+<body>
+<header>
+<div class="header_head">
+<div class="container">
+<div class="head_inner">
+<div class="logo">CheckMySite</div>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#login">Login</a></li>
+<li><a href="#register">Register</a></li>
+</div>
+</div>
+</div>
+<div class="header_body">
+<div class="container">
+<div class="header_body_inner">
+<div class="left">
+<div class="title">
+Hello, <br>CheckMySite is a project, <br>which can help people to know <br>which site is <span>good</span> and which is <span>bad</span>.
+</div>
+<a href="#" class="btn">Login and Download Script</a>
+</div>
+<div class="right">
+<img src="/Robot.png" alt="" style="width:90%;"/>
+</div>
+</div>
+</div>
+</div>
+</header>
+<section id="about">
+<div class="container">
+<div class="section_title">
+How it works
+</div>
+<div class="about_text">
+<p>1. You register your site and get api key</p>
+<p>2. You put the <span class="abb">html code</span> from you cabinet to your site</p>
+<p>3. then you go to your site and wait until script is initialized</p>
+<p>4. If you see the robot at the top of the page, then everything is initialized</p>
+<p>5. Good. Now your visitors see, that your site is secure</p>
+</div>
+</div>
+</section>
+<section id="plan">
+<div class="container">
+<div class="section_title">
+Choose a plan:
+</div>
+<div class="plans">
+<div class="plan-inner">
+<div class="plan-title">Free</div>
+<div class="plan-item">Cost: <center>0$</center></div>
+<div class="plan-desc">
+<ul>
+<li>Protect 1 Site</li>
+<li>Check for updates once a month</li>
+<li>Don't get information to email</li>
+</ul>
+</div>
+</div>
+<div class="plan-inner">
+<div class="plan-title">Free</div>
+<div class="plan-item">Cost: <center>5$</center></div>
+<div class="plan-desc">
+<ul>
+<li>Protect <span class="abb">unlimites</span> Sites</li>
+<li>Check for updates once a day</li>
+<li>Get information to email</li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+<div id="register_free" class="reglog">
+<h4>Register on a Free Plan</h4>
+<form action="/register_free">
+<input type="url" name="siteurl" placeholder="Enter your site url" required>
+<input type="text" name="username" placeholder="Enter your username" required>
+<input type="email" name="email" placeholder="Enter your email" required>
+<input type="password" name="pass" placeholder="Enter your password" required>
+<button>Register</button>
+</form>
+</div>
+
+<div id="register_paid" class="reglog">
+<h4>Register on a Paid Plan</h4>
+<form action="/register_paid">
+<input type="url" name="siteurl" placeholder="Enter your site url" required>
+<input type="text" name="username" placeholder="Enter your username" required>
+<input type="email" name="email" placeholder="Enter your email" required>
+<input type="password" name="pass" placeholder="Enter your password" required>
+<button>Register</button>
+</form>
+</div>
+
+</body>
+</html>
