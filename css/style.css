@@ -65,7 +65,8 @@ header{
         flex-direction: column;
     }
     .right img{
-        width:40% !important;
+        /*width:40% !important;*/
+        display: none;
     }
     .header_body{
         margin-top:70px !important;
