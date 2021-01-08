@@ -61,6 +61,12 @@ header{
         margin-bottom:30px;
         padding:2px 40px !important;
     }
+    .header_body_inner{
+        flex-direction: column;
+    }
+    .right img{
+        width:40% !important;
+    }
 }
 .head_inner nav ul li{
     list-style-type: none;
