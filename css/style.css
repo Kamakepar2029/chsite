@@ -84,7 +84,9 @@ header{
     .cancel{
         padding:4px !important;
     }
-
+    .register_paid h4,.register_free h4{
+        padding: 20px;
+    }
 }
 .head_inner nav ul li{
     list-style-type: none;
