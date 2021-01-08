@@ -199,12 +199,56 @@ section{
 }
 #register_free:target{
     display:block;
-    position: fixed;z-index:9999999;
+    background-color: #000; /* Чёрный фон */
+  height: 100%; /* Высота максимальна */
+  left: 0; /* Нулевой отступ слева */
+  position: fixed; /* Фиксированное положение */
+  top: 0; /* Нулевой отступ сверху */
+  width: 100%; /* Ширина максимальна */
+  z-index: 100;
+  opacity: .98;
 }
 #register_paid{
     display: none;
 }
+.register_free{
+    background:white;
+    height:100%;
+}
+.register_paid{
+    background:white;
+    height:100%;
+}
+.register_free form,.register_paid form{
+    padding: 70px 132px;
+}
+.register_free form button, .register_paid form button{
+    width:100%;
+}
+.cancel{
+    color:white;
+    text-decoration: none;
+    background:red;
+    padding:10px;
+}
+.register_paid h4{
+    padding: 61px;
+    text-align: center;
+    font-size: 150%;
+}
+.register_free h4{
+    padding: 61px;
+    text-align: center;
+    font-size: 150%;
+}
 #register_paid:target{
     display: block;
-    position: fixed;z-index:9999999;
+    opacity: .98;
+    background-color: #000; /* Чёрный фон */
+  height: 100%; /* Высота максимальна */
+  left: 0; /* Нулевой отступ слева */
+  position: fixed; /* Фиксированное положение */
+  top: 0; /* Нулевой отступ сверху */
+  width: 100%; /* Ширина максимальна */
+  z-index: 100;
 }
