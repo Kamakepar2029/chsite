@@ -67,6 +67,13 @@ header{
     .right img{
         width:40% !important;
     }
+    .header_body{
+        margin-top:70px !important;
+    }
+    .right{
+        text-align:center !important;
+        margin-top:10px;
+    }
 }
 .head_inner nav ul li{
     list-style-type: none;
