@@ -59,6 +59,7 @@ header{
     }
     .plan-inner{
         margin-bottom:30px;
+        padding:2px 40px !important;
     }
 }
 .head_inner nav ul li{
