@@ -75,6 +75,16 @@ header{
         text-align:center !important;
         margin-top:10px;
     }
+    .register_free form,.register_paid form{
+        padding: 70px 4px !important;
+    }
+    input{
+        font-size:15px !important;
+    }
+    .cancel{
+        padding:4px !important;
+    }
+
 }
 .head_inner nav ul li{
     list-style-type: none;
