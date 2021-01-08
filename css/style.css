@@ -199,10 +199,12 @@ section{
 }
 #register_free:target{
     display:block;
+    position: fixed;z-index:9999999;
 }
 #register_paid{
     display: none;
 }
 #register_paid:target{
     display: block;
+    position: fixed;z-index:9999999;
 }
