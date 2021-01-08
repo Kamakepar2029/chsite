@@ -194,3 +194,15 @@ section{
     box-shadow: 0px 0px 18px 4px #F83B3B;
     transition: 0.7s;
 }
+#register_free{
+    display:none;
+}
+#register_free:target{
+    display:block;
+}
+#register_paid{
+    display: none;
+}
+#register_paid:target{
+    display: block;
+}
